@@ -1,0 +1,626 @@
+Microsoft Windows [Version 6.3.9600]
+(c) 2013 Microsoft Corporation. Todos os direitos reservados.
+
+C:\Users\Admin>ver
+
+Microsoft Windows [Version 6.3.9600]
+
+C:\Users\Admin>
+Microsoft SQL Server 2014 - 12.0.2269.0 (X64)   Jun 10 2015 03:35:45   
+Copyright (c) Microsoft Corporation  Express Edition (64-bit) on Windows NT 6.3 <X64> (Build 9600: ) 
+C:\Users\Admin>wmic qfe get hotfixid
+HotFixID
+KB2899189_Microsoft-Windows-CameraCodec-Package
+KB2868626
+KB2883200
+KB2887595
+KB2894852
+KB2894856
+KB2903939
+KB2911106
+KB2919355
+KB2919394
+KB2920189
+KB2928680
+KB2934520
+KB2954879
+KB2955164
+KB2959626
+KB2961908
+KB2962409
+KB2965142
+KB2965500
+KB2966826
+KB2966828
+KB2967917
+KB2968296
+KB2971203
+KB2972103
+KB2972213
+KB2973351
+KB2975061
+KB2975719
+KB2976627
+KB2976978
+KB2977629
+KB2978122
+KB2980654
+KB2982998
+KB2984006
+KB2987107
+KB2989647
+KB2989930
+KB2990967
+KB2993100
+KB2994290
+KB2995004
+KB2995388
+KB2996799
+KB2998174
+KB2999226
+KB3000850
+KB3003057
+KB3003667
+KB3004361
+KB3004365
+KB3008242
+KB3008923
+KB3012199
+KB3012235
+KB3012702
+KB3013172
+KB3013531
+KB3013538
+KB3013791
+KB3014442
+KB3015696
+KB3018133
+KB3019978
+KB3020370
+KB3021910
+KB3021952
+KB3022345
+KB3023219
+KB3024751
+KB3024755
+KB3029603
+KB3029606
+KB3030377
+KB3030947
+KB3032359
+KB3033446
+KB3035126
+KB3035487
+KB3036612
+KB3037576
+KB3037924
+KB3038002
+KB3038314
+KB3038701
+KB3042085
+KB3044374
+KB3044673
+KB3045634
+KB3045685
+KB3045717
+KB3045719
+KB3045755
+KB3045999
+KB3046017
+KB3046480
+KB3046737
+KB3047254
+KB3048043
+KB3049563
+KB3053863
+KB3053946
+KB3054169
+KB3054256
+KB3054464
+KB3055323
+KB3055343
+KB3055642
+KB3056347
+KB3058515
+KB3059317
+KB3060793
+KB3061493
+KB3061512
+KB3062760
+KB3063843
+KB3064059
+KB3065822
+KB3065988
+KB3068708
+KB3071756
+KB3072307
+KB3074545
+KB3075220
+KB3075853
+KB3076949
+KB3077715
+KB3078071
+KB3078405
+KB3078676
+KB3080042
+KB3080149
+KB3080800
+KB3082089
+KB3083325
+KB3083711
+KB3084135
+KB3086255
+KB3087038
+KB3087040
+KB3087041
+KB3087137
+KB3087916
+KB3089023
+KB3091297
+KB3093983
+KB3095701
+KB3097992
+KB3099406
+KB3099834
+KB3100473
+KB3100773
+KB3102429
+KB3102812
+KB3103616
+KB3103688
+KB3103696
+KB3103699
+KB3103709
+KB3104002
+KB3105216
+KB3109103
+KB3109560
+KB3109976
+KB3110329
+KB3112148
+KB3112336
+KB3115224
+KB3118401
+KB3119147
+KB3121261
+KB3124275
+KB3126030
+KB3126434
+KB3126587
+KB3127222
+KB3128650
+KB3132372
+KB3133431
+KB3133690
+KB3134814
+KB3134815
+KB3135449
+KB3135782
+KB3137728
+KB3138378
+KB3138602
+KB3138615
+KB3138910
+KB3138962
+KB3139398
+KB3139914
+KB3139929
+KB3140185
+KB3140219
+KB3140222
+KB3140234
+KB3141092
+KB3142026
+KB3144756
+KB3145384
+KB3146604
+KB3146723
+KB3146751
+KB3147071
+KB3148198
+KB3148851
+KB3150513
+KB3151864
+KB3154070
+KB3154132
+KB3155784
+KB3156059
+KB3157993
+KB3159398
+KB3160005
+KB3161102
+KB3161949
+KB3161958
+KB3162835
+KB3163207
+KB3167685
+KB3170106
+KB3172614
+KB3172729
+KB3173424
+KB3174060
+KB3175024
+KB3175443
+KB3178539
+KB3179574
+KB3184143
+KB3185319
+KB3186539
+KB3187754
+KB3188128
+KB3194343
+KB3201860
+KB3202790
+KB3209498
+KB3210132
+KB3210137
+KB3214628
+KB4010250
+KB4014329
+KB4014505
+KB4014512
+KB4014555
+KB4018483
+KB4020821
+KB4022730
+KB4025376
+KB4033369
+KB4033389
+KB4034662
+KB4038806
+KB4040972
+KB4040981
+KB4041777
+KB4043763
+KB4048951
+KB4049179
+KB4053577
+KB4054854
+KB4054980
+KB4054999
+KB4055001
+KB4056887
+KB4074595
+KB4088785
+KB976002
+KB4088876
+
+
+C:\Users\Admin>wmic bios get smbiosbiosversion
+SMBIOSBIOSVersion
+A03
+
+
+C:\Users\Admin>wmic bios get product,Manufacturer,version,serialnumber
+Node - ADMIN-PC
+ERROR:
+Description = Invalid query
+
+
+
+C:\Users\Admin>wmic baseboard get product,Manufacturer,version,serialnumber
+Manufacturer  Product  SerialNumber              Version
+Dell Inc.     0VHWTR   /FK6M022/CN7016344201RJ/  A02
+
+
+C:\Users\Admin>ipconfig /all
+
+Windows IP Configuration
+
+   Host Name . . . . . . . . . . . . : Admin-PC
+   Primary Dns Suffix  . . . . . . . :
+   Node Type . . . . . . . . . . . . : Hybrid
+   IP Routing Enabled. . . . . . . . : No
+   WINS Proxy Enabled. . . . . . . . : No
+   DNS Suffix Search List. . . . . . : lan
+
+Ethernet adapter Npcap Loopback Adapter:
+
+   Connection-specific DNS Suffix  . :
+   Description . . . . . . . . . . . : Microsoft KM-TEST Loopback Adapter
+   Physical Address. . . . . . . . . : 02-00-4C-4F-4F-50
+   DHCP Enabled. . . . . . . . . . . : Yes
+   Autoconfiguration Enabled . . . . : Yes
+   Link-local IPv6 Address . . . . . : fe80::44:1ff9:8cbd:9235%43(Preferred)
+   Autoconfiguration IPv4 Address. . : 169.254.146.53(Preferred)
+   Subnet Mask . . . . . . . . . . . : 255.255.0.0
+   Default Gateway . . . . . . . . . :
+   DHCPv6 IAID . . . . . . . . . . . : 721551436
+   DHCPv6 Client DUID. . . . . . . . : 00-01-00-01-1B-C8-7E-F8-F8-BC-12-72-0F-3F
+
+   DNS Servers . . . . . . . . . . . : fec0:0:0:ffff::1%1
+                                       fec0:0:0:ffff::2%1
+                                       fec0:0:0:ffff::3%1
+   NetBIOS over Tcpip. . . . . . . . : Enabled
+
+Ethernet adapter Ethernet 2:
+
+   Media State . . . . . . . . . . . : Media disconnected
+   Connection-specific DNS Suffix  . :
+   Description . . . . . . . . . . . : Kaspersky Security Data Escort Adapter
+   Physical Address. . . . . . . . . : 00-FF-26-FF-EA-7B
+   DHCP Enabled. . . . . . . . . . . : Yes
+   Autoconfiguration Enabled . . . . : Yes
+
+Ethernet adapter Ethernet:
+
+   Connection-specific DNS Suffix  . : lan
+   Description . . . . . . . . . . . : Controlador da FamÌlia Realtek PCIe GBE
+   Physical Address. . . . . . . . . : F8-BC-12-72-0F-3F
+   DHCP Enabled. . . . . . . . . . . : Yes
+   Autoconfiguration Enabled . . . . : Yes
+   Link-local IPv6 Address . . . . . : fe80::19a5:b99c:b5de:304e%3(Preferred)
+   IPv4 Address. . . . . . . . . . . : 192.168.1.74(Preferred)
+   Subnet Mask . . . . . . . . . . . : 255.255.255.0
+   Lease Obtained. . . . . . . . . . : 4 de abril de 2018 08:11:55
+   Lease Expires . . . . . . . . . . : 4 de abril de 2018 11:11:54
+   Default Gateway . . . . . . . . . : 192.168.1.254
+   DHCP Server . . . . . . . . . . . : 192.168.1.254
+   DHCPv6 IAID . . . . . . . . . . . : 66632722
+   DHCPv6 Client DUID. . . . . . . . : 00-01-00-01-1B-C8-7E-F8-F8-BC-12-72-0F-3F
+
+   DNS Servers . . . . . . . . . . . : fe80::9e97:26ff:fe9a:1a64%3
+                                       192.168.1.254
+   NetBIOS over Tcpip. . . . . . . . : Enabled
+
+Tunnel adapter isatap.{1B624452-BB53-4AB8-9A19-ADD32E17A94A}:
+
+   Media State . . . . . . . . . . . : Media disconnected
+   Connection-specific DNS Suffix  . :
+   Description . . . . . . . . . . . : Placa Microsoft ISATAP #2
+   Physical Address. . . . . . . . . : 00-00-00-00-00-00-00-E0
+   DHCP Enabled. . . . . . . . . . . : No
+   Autoconfiguration Enabled . . . . : Yes
+
+Tunnel adapter isatap.lan:
+
+   Media State . . . . . . . . . . . : Media disconnected
+   Connection-specific DNS Suffix  . : lan
+   Description . . . . . . . . . . . : Placa Microsoft ISATAP
+   Physical Address. . . . . . . . . : 00-00-00-00-00-00-00-E0
+   DHCP Enabled. . . . . . . . . . . : No
+   Autoconfiguration Enabled . . . . : Yes
+
+Microsoft Windows [Version 6.3.9600]
+(c) 2013 Microsoft Corporation. Todos os direitos reservados.
+
+C:\Users\Admin>nmap 196.168.1.254
+Starting Nmap 7.70 ( https://nmap.org ) at 2018-04-04 11:22 Hora de Ver“o de GMT
+
+Note: Host seems down. If it is really up, but blocking our ping probes, try -Pn
+
+Nmap done: 1 IP address (0 hosts up) scanned in 3.43 seconds
+
+C:\Users\Admin>nmap 192.168.1.254/24
+Starting Nmap 7.70 ( https://nmap.org ) at 2018-04-04 11:22 Hora de Ver“o de GMT
+
+Nmap scan report for 192.168.1.253
+Host is up (0.010s latency).
+Not shown: 996 closed ports
+PORT    STATE SERVICE
+22/tcp  open  ssh
+80/tcp  open  http
+139/tcp open  netbios-ssn
+515/tcp open  printer
+MAC Address: 9E:97:26:9A:1A:64 (Unknown)
+
+Nmap scan report for dsldevice.lan (192.168.1.254)
+Host is up (0.0035s latency).
+Not shown: 993 filtered ports
+PORT     STATE SERVICE
+21/tcp   open  ftp
+23/tcp   open  telnet
+53/tcp   open  domain
+80/tcp   open  http
+443/tcp  open  https
+1723/tcp open  pptp
+8000/tcp open  http-alt
+MAC Address: 9C:97:26:9A:1A:64 (Technicolor)
+
+Nmap scan report for Admin-PC.lan (192.168.1.74)
+Host is up (0.00s latency).
+Not shown: 989 closed ports
+PORT      STATE SERVICE
+80/tcp    open  http
+135/tcp   open  msrpc
+139/tcp   open  netbios-ssn
+445/tcp   open  microsoft-ds
+3389/tcp  open  ms-wbt-server
+5357/tcp  open  wsdapi
+8000/tcp  open  http-alt
+49152/tcp open  unknown
+49153/tcp open  unknown
+49154/tcp open  unknown
+49155/tcp open  unknown
+
+Nmap done: 256 IP addresses (3 hosts up) scanned in 11.55 seconds
+
+C:\Users\Admin>nmap -A 192.168.1.254/24
+Starting Nmap 7.70 ( https://nmap.org ) at 2018-04-04 11:23 Hora de Ver“o de GMT
+
+Nmap scan report for 192.168.1.253
+Host is up (0.0010s latency).
+Not shown: 996 closed ports
+PORT    STATE SERVICE     VERSION
+22/tcp  open  ssh         Dropbear sshd 0.44 (protocol 2.0)
+| ssh-hostkey:
+|   1024 da:5a:a6:0a:4f:61:0b:35:7f:6e:f9:12:74:1a:1b:b3 (DSA)
+|_  1024 7f:8f:6b:b0:26:9e:2f:92:da:00:c3:17:1c:32:22:a5 (RSA)
+80/tcp  open  http        Knopflerfish httpd
+|_http-server-header: The Knopflerfish HTTP Server
+|_http-title: 404 Not Found
+139/tcp open  netbios-ssn Samba smbd (workgroup: WORKGROUP)
+515/tcp open  printer     Xerox lpd
+MAC Address: 9E:97:26:9A:1A:64 (Unknown)
+Device type: general purpose
+Running: Linux 2.6.X
+OS CPE: cpe:/o:linux:linux_kernel:2.6
+OS details: Linux 2.6.9 - 2.6.30
+Network Distance: 1 hop
+Service Info: OS: Linux; Device: printer; CPE: cpe:/o:linux:linux_kernel
+
+Host script results:
+|_nbstat: NetBIOS name: NETPLUS, NetBIOS user: <unknown>, NetBIOS MAC: <unknown>
+ (unknown)
+|_smb2-time: Protocol negotiation failed (SMB2)
+
+TRACEROUTE
+HOP RTT     ADDRESS
+1   1.03 ms 192.168.1.253
+
+Nmap scan report for dsldevice.lan (192.168.1.254)
+Host is up (0.00s latency).
+Not shown: 993 filtered ports
+PORT     STATE SERVICE  VERSION
+21/tcp   open  ftp      Alcatel Speedtouch ADSL router ftpd
+23/tcp   open  telnet   Technicolor TG582n WAP telnetd
+53/tcp   open  domain   (generic dns response: NOTIMP)
+| fingerprint-strings:
+|   DNSVersionBindReqTCP:
+|     version
+|_    bind
+80/tcp   open  http     Technicolor DSL modem http admin
+| http-cookie-flags:
+|   /:
+|     xAuth_SESSION_ID:
+|_      httponly flag not set
+| http-methods:
+|_  Potentially risky methods: TRACE
+|_http-server-header: <empty>
+| http-title: Technicolor Gateway - Login
+|_Requested resource was http://dsldevice.lan/login.lp
+443/tcp  open  ssl/http Technicolor TG789vn broadband router
+| http-cookie-flags:
+|   /:
+|     xAuth_SESSION_ID:
+|_      httponly flag not set
+| http-methods:
+|_  Potentially risky methods: TRACE
+|_http-server-header: <empty>
+| http-title: Technicolor Gateway - Login
+|_Requested resource was https://dsldevice.lan/login.lp
+| ssl-cert: Subject: commonName=Technicolor TG784n v3/organizationName=Technicol
+or
+| Not valid before: 2005-01-01T00:00:00
+|_Not valid after:  2024-12-31T00:00:00
+|_ssl-date: 2018-04-04T11:24:10+00:00; +59m58s from scanner time.
+1723/tcp open  pptp     THOMSON (Firmware: 1)
+8000/tcp open  http     Technicolor TG787 VoIP gateway http admin 1.0
+|_http-title: Did not follow redirect to http://192.168.1.254:80
+1 service unrecognized despite returning data. If you know the service/version,
+please submit the following fingerprint at https://nmap.org/cgi-bin/submit.cgi?n
+ew-service :
+SF-Port53-TCP:V=7.70%I=7%D=4/4%Time=5AC4A79B%P=i686-pc-windows-windows%r(D
+SF:NSVersionBindReqTCP,20,"\0\x1e\0\x06\x81\x84\0\x01\0\0\0\0\0\0\x07versi
+SF:on\x04bind\0\0\x10\0\x03")%r(DNSStatusRequestTCP,E,"\0\x0c\0\0\x90\x84\
+SF:0\0\0\0\0\0\0\0");
+MAC Address: 9C:97:26:9A:1A:64 (Technicolor)
+Warning: OSScan results may be unreliable because we could not find at least 1 o
+pen and 1 closed port
+Device type: broadband router|printer|proxy server|firewall|general purpose
+Running (JUST GUESSING): Thomson embedded (94%), HP embedded (87%), Blue Coat SG
+OS 4.X (87%), SonicWALL SonicOS 4.X (86%), Check Point IPSO 4.X (85%), Apple Mac
+ OS X 10.3.X|10.4.X (85%), IBM AIX 4.X (85%)
+OS CPE: cpe:/h:thomson:st_585 cpe:/h:thomson:st_536i cpe:/o:bluecoat:sgos:4 cpe:
+/o:sonicwall:sonicos:4 cpe:/o:checkpoint:ipso:4.1 cpe:/o:apple:mac_os_x:10.3 cpe
+:/o:apple:mac_os_x:10.4 cpe:/o:ibm:aix:4.3
+Aggressive OS guesses: Thomson ST 585 or ST 536i ADSL modem (94%), Thomson TG712
+ DSL router (93%), Thomson SpeedTouch 510 DSL modem (92%), Thomson SpeedTouch 51
+0/510i/530/570/580 DSL modem (88%), HP PSC 2400-series Photosmart printer (87%),
+ Blue Coat SG200 proxy server (SGOS 4.2.2.8 - 4.2.6.1) (87%), SonicWALL TZ 190 f
+irewall (SonicOS Enhanced 4.0) (86%), Check Point VPN-1 firewall (IPSO 4.1) (85%
+), Apple Mac OS X 10.3.9 (Panther) - 10.4.7 (Tiger) (Darwin 7.9.0 - 8.7.8, Power
+PC) (85%), IBM AIX 4.3 (85%)
+No exact OS matches for host (test conditions non-ideal).
+Network Distance: 1 hop
+Service Info: Host: SpeedTouch; Devices: broadband router, WAP, VoIP adapter; CP
+E: cpe:/h:technicolor:tg582n
+
+Host script results:
+|_clock-skew: mean: 59m58s, deviation: 0s, median: 59m58s
+
+TRACEROUTE
+HOP RTT     ADDRESS
+1   0.00 ms dsldevice.lan (192.168.1.254)
+
+Nmap scan report for Admin-PC.lan (192.168.1.74)
+Host is up (0.00s latency).
+Not shown: 989 closed ports
+PORT      STATE SERVICE            VERSION
+80/tcp    open  http               Microsoft IIS httpd 8.5
+| http-methods:
+|_  Potentially risky methods: TRACE
+|_http-server-header: Microsoft-IIS/8.5
+|_http-title: IIS Windows
+135/tcp   open  msrpc              Microsoft Windows RPC
+139/tcp   open  netbios-ssn        Microsoft Windows netbios-ssn
+445/tcp   open  microsoft-ds       Windows 8.1 Pro 9600 microsoft-ds (workgroup:
+ WORKGROUP)
+3389/tcp  open  ssl/ms-wbt-server?
+| ssl-cert: Subject: commonName=Admin-PC
+| Not valid before: 2018-04-03T07:12:04
+|_Not valid after:  2018-10-03T07:12:04
+5357/tcp  open  http               Microsoft HTTPAPI httpd 2.0 (SSDP/UPnP)
+|_http-server-header: Microsoft-HTTPAPI/2.0
+|_http-title: Service Unavailable
+8000/tcp  open  mc-nmf             .NET Message Framing
+49152/tcp open  msrpc              Microsoft Windows RPC
+49153/tcp open  msrpc              Microsoft Windows RPC
+49154/tcp open  msrpc              Microsoft Windows RPC
+49155/tcp open  msrpc              Microsoft Windows RPC
+Device type: general purpose
+Running: Microsoft Windows 8.1|7|2008
+OS CPE: cpe:/o:microsoft:windows_8.1:r1 cpe:/o:microsoft:windows_7 cpe:/o:micros
+oft:windows_server_2008:r2
+OS details: Microsoft Windows 7 or 8.1 R1 or Server 2008 R2 SP1
+Network Distance: 0 hops
+Service Info: Host: ADMIN-PC; OS: Windows; CPE: cpe:/o:microsoft:windows
+
+Host script results:
+|_clock-skew: mean: -19m59s, deviation: 34m37s, median: 0s
+| ms-sql-info:
+|   Windows server name: ADMIN-PC
+|   192.168.1.74\PRIMAVERA:
+|     Instance name: PRIMAVERA
+|     Version:
+|       name: Microsoft SQL Server 2014 RTM+
+|       number: 12.00.2269.00
+|       Product: Microsoft SQL Server 2014
+|       Service pack level: RTM
+|       Post-SP patches applied: true
+|     TCP port: 49170
+|     Named pipe: \\192.168.1.74\pipe\MSSQL$PRIMAVERA\sql\query
+|     Clustered: false
+|   192.168.1.74\SQLEXPRESS:
+|     Instance name: SQLEXPRESS
+|     Version:
+|       name: Microsoft SQL Server 2014 RTM
+|       Product: Microsoft SQL Server 2014
+|       Service pack level: RTM
+|_    Clustered: false
+|_nbstat: NetBIOS name: ADMIN-PC, NetBIOS user: <unknown>, NetBIOS MAC: f8:bc:12
+:72:0f:3f (Dell)
+| smb-os-discovery:
+|   OS: Windows 8.1 Pro 9600 (Windows 8.1 Pro 6.3)
+|   OS CPE: cpe:/o:microsoft:windows_8.1::-
+|   Computer name: Admin-PC
+|   NetBIOS computer name: ADMIN-PC\x00
+|   Workgroup: WORKGROUP\x00
+|_  System time: 2018-04-04T11:25:44+01:00
+| smb-security-mode:
+|   account_used: guest
+|   authentication_level: user
+|   challenge_response: supported
+|_  message_signing: disabled (dangerous, but default)
+| smb2-security-mode:
+|   2.02:
+|_    Message signing enabled but not required
+| smb2-time:
+|   date: 2018-04-04 11:25:44
+|_  start_date: 2018-04-04 08:11:56
+
+OS and Service detection performed. Please report any incorrect results at https
+://nmap.org/submit/ .
+Nmap done: 256 IP addresses (3 hosts up) scanned in 189.73 seconds
+
+C:\Users\Admin>
